@@ -1,0 +1,5 @@
+http://localhost:3000/graphql/playlists?query={playlist%28id:1%29{title,%20artist}}
+
+http://localhost:3000/graphql/playlists?query={playlist%28id:1%29{tracks{title}}}
+
+http://localhost:3000/graphql/users?query={user%28id:4%29{first_name,%20last_name}}
