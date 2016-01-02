@@ -1,0 +1,16 @@
+[
+	{
+		"id": "1",
+		"title": "The Hunting Party",
+		"artist": "Linkin Park",
+		"like_count": "5",
+		"created_at": "Sat Jan 02 2016 19:30:23 GMT+0530 (IST)"
+	},
+	{
+		"id": "2",
+		"title": "Here and Now",
+		"artist": "NickleBack",
+		"like_count": "4",
+		"created_at": "Sun Jan 03 2016 19:30:23 GMT+0530 (IST)"
+	}
+]

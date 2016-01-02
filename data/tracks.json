@@ -1,0 +1,44 @@
+[
+	{
+		"id": "1",
+		"playlist_id": "1",
+		"title": "Guilty All the Same",
+		"url": "https://en.wikipedia.org/wiki/Guilty_All_the_Same",
+		"created_at": "Sat Jan 02 2016 19:30:23 GMT+0530 (IST)"	
+	},
+	{
+		"id": "2",
+		"playlist_id": "1",
+		"title": "Wastelands",
+		"url": "https://en.wikipedia.org/wiki/Wastelands_(song)",
+		"created_at": ""
+	},
+	{
+		"id": "3",
+		"playlist_id": "1",
+		"title": "Until it's gone",
+		"url": "https://en.wikipedia.org/wiki/Wastelands_(song)",
+		"created_at": "Sat Jan 02 2016 19:30:23 GMT+0530 (IST)"
+	},
+	{
+		"id": "4",
+		"playlist_id": "2",
+		"title": "This Means War",
+		"url": "https://en.wikipedia.org/wiki/This_Means_War_(Nickelback_song)",
+		"created_at": "Sun Jan 03 2016 19:30:23 GMT+0530 (IST)"
+	},
+	{
+		"id": "5",
+		"playlist_id": "2",
+		"title": "Bottoms Up",
+		"url": "https://en.wikipedia.org/wiki/Bottoms_Up_(Nickelback_song)",
+		"created_at": "Sun Jan 03 2016 19:30:23 GMT+0530 (IST)"
+	},
+	{
+		"id": "6",
+		"playlist_id": "2",
+		"title": "Lullaby",
+		"url": "https://en.wikipedia.org/wiki/Lullaby_(Nickelback_song)",
+		"created_at": "Sun Jan 03 2016 19:30:23 GMT+0530 (IST)"
+	}
+]
