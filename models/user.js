@@ -1,5 +1,5 @@
 var gql  = require("graphql");
-var data = require("../data/data.json");
+var db = require("../database");
 
 var User = new gql.GraphQLObjectType({
 	name: 'User',
@@ -7,6 +7,7 @@ var User = new gql.GraphQLObjectType({
 		id: { type: gql.GraphQLID },
 		first_name: { type: gql.GraphQLString },
 		last_name: { type: gql.GraphQLString },
+		full_name: { type: gql.GraphQLString },
 		email: { type: gql.GraphQLString },
 		gender: { type: gql.GraphQLString }
 	})
@@ -21,7 +22,7 @@ var UserSchema = new gql.GraphQLSchema({
 				args: {
 					id: { type: gql.GraphQLID }
 				},
-				resolve: (_, args) => data[args.id]
+				resolve: (_, args) => db.getUser(args.id)
 			}
 		}
 	})
