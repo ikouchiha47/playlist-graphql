@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }} by {{ artist}}</title>
+	<link rel="stylesheet" href="/stylesheets/index.css"/>
+</head>
+<body>
+	<div class="container" data-playlistid={{ id }}>
+		<header>
+			<h1>{{ title }} by {{ artist }}</h1>
+			<input type="text" placeholder="Track title" id="add-track"/>
+      <input type="text" placeholder="Track url" id="track-url"/>
+			<button>Add Track</button>
+		</header>
+		<main>
+		</main>
+		<footer></footer>
+	</div>
+	<script src="/javascripts/dom.js"></script>
+	<script src="/javascripts/playlistinfo.js"></script>
+</body>
+</html>

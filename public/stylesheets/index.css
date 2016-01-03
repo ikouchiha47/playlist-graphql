@@ -1,0 +1,42 @@
+html, body, div, input, p, span, header, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Arial";
+  color: #000;
+  background-color: #ccc;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.list-unstyled {
+  list-style-type: none;
+}
+
+.list-unstyled li {
+  padding: 5px 0;
+}
+
+.likes {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.likes:after {
+  content: "\1FF4D";
+}

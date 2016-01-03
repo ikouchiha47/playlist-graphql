@@ -3,3 +3,5 @@ http://localhost:3000/graphql/playlists?query={playlist%28id:1%29{title,%20artis
 http://localhost:3000/graphql/playlists?query={playlist%28id:1%29{tracks{title}}}
 
 http://localhost:3000/graphql/users?query={user%28id:4%29{first_name,%20last_name}}
+
+curl -XPOST -H 'Content-Type:application/text' -d 'mutation addTrack{addTrack(title: "a", url: "b", playlist_id: 1){title, url, created_at}}' http://localhost:3000/graphql/playlists
